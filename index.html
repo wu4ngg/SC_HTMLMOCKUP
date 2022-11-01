@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="body">
+        <div class="course_planets-center">
+            <div class="course_planets-wrapper">
+                <div class="course_planet-group">
+                    <div></div>
+                   <div id="planet2" onmouseover="pos(this.id)" onmouseleave="out()">
+                       <img src="./planets/planet-js.svg" class="planet2" alt="planet"> 
+                       <p>Javascript</p>
+                   </div>
+                </div>
+                <div class="course_planet-group" >
+                    <div id="planet2_first" onmouseover="pos(this.id)" onmouseleave="out()">
+                        <img src="./planets/HTML.svg" class="planet2" alt="planet"> 
+                        <p>HTML 5</p>
+                    </div>
+                   <div id="planet3" onmouseover="pos(this.id)" onmouseleave="out()">
+                       <img src="./planets/CSS.svg" class="planet2" alt="planet"> 
+                       <p>CSS</p>
+                   </div>
+                </div>
+                <div class="course_planet-group">
+                    <div></div>
+                   <div id="planet4" onmouseover="pos(this.id)" onmouseleave="out()">
+                       <img src="./planets/WAPI.svg" class="planet2" alt="planet"> 
+                       <p>WEB API</p>
+                   </div>
+                </div>
+                <div class="course_planet-group">
+                    <div></div>
+                   <div id="planet2" onmouseover="pos(this.id)">
+                       <button>Xem thêm</button>
+                   </div>
+                </div>
+                <div class="pop-up">
+                    <h2>Test</h2>
+                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at tempus turpis. Mauris cursus urna ac ipsum imperdiet sodales. Nunc gravida arcu libero. Sed ultricies semper ex nec sodales. Ut at eleifend eros. Duis tincidunt faucibus ligula sit amet tempus. Integer ut turpis viverra, rhoncus odio vitae, varius quam. Suspendisse ac auctor nulla. In laoreet lectus nec ipsum egestas vestibulum. Cras luctus risus ac aliquam lacinia. Praesent leo magna, lobortis ut ultrices at, ultricies id nibh. Maecenas porta semper pulvinar.</p>
+                </div>
+                <div class="rotate-wrapper">
+                    <div class="rotate">
+                        
+                    </div>
+                </div>
+            </div>
+            <div></div>
+        </div>
+    </div>
+    <script src="./jquery-3.6.1.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
